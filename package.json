@@ -1,0 +1,27 @@
+{
+  "name": "scaffold",
+  "version": "1.0.0",
+  "description": "QE Test Framework",
+  "main": "index.js",
+  "dependencies": {
+    "bunyan": "^1.8.12",
+    "chai": "^4.1.2",
+    "cucumber": "^3.1.0",
+    "cucumber-pretty": "0.0.5",
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-exec": "^3.0.0",
+    "gulp": "^3.9.1",
+    "load-grunt-tasks": "^3.5.2",
+    "lodash": "^4.17.4",
+    "mocha": "^3.5.3",
+    "restler": "^3.4.0",
+    "unirest": "^0.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha spec"
+  },
+  "author": "Ramandeep",
+  "license": "ISC"
+}
